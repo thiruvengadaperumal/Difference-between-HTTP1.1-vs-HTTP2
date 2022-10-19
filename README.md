@@ -1,5 +1,6 @@
 # Difference-between-HTTP1.1-vs-HTTP2
-HTTP1 VS HTTP2
+HTTP1.1 VS HTTP2
+
 Compression
 
 A common method of optimizing web applications is to use compression algorithms to reduce the size of HTTP messages that travel between the client and the server. HTTP/1.1 and HTTP/2 both use this strategy, but there are implementation problems in the former that prohibit compressing the entire message. The following section will discuss why this is the case, and how HTTP/2 can provide a solution.
